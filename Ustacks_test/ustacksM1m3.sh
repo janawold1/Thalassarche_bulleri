@@ -1,5 +1,6 @@
 #!/bin/bash
 cd /data/Tbulleri/STACKSv2.41_outputs/ustacks_test/ustacksM1m3
+
 ustacks -f /data/Tbulleri/process_radtags/N1.fq.gz -i 01 -o ./ -M 1 -m 3 -p 30 -d --disable-gapped &&
 ustacks -f /data/Tbulleri/process_radtags/N2.fq.gz -i 02 -o ./ -M 1 -m 3 -p 30 -d --disable-gapped &&
 ustacks -f /data/Tbulleri/process_radtags/N3.fq.gz -i 03 -o ./ -M 1 -m 3 -p 30 -d --disable-gapped &&
