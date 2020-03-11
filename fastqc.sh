@@ -2,6 +2,7 @@
 
 cd /data/Tbulleri/
 
+#mkdir untrimmed_fastqc
 mkdir trimmed_fastqc
 
 for file in process_radtags/*.fq.gz

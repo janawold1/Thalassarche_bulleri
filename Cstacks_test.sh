@@ -16,18 +16,18 @@ for file in /data/Tbulleri/ustacks/ustacksM1m*
     South2=$file/cstacks_n2/Southern
     Colony2=$file/cstacks_n2/Colonies
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North1 -n 1 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North1 -n 1 -p 30
     echo "Finished calculating $North1"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South1 -n 1 -p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South1 -n 1 -p 30
     echo "Finished calculating $South1"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony1 -n 1 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony1 -n 1 -p 30
     echo "Finished calculating $Colony1"
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North2 -n 2 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North2 -n 2 -p 30
     echo "Finished calculating $North2"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South2 -n 2-p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South2 -n 2-p 30
     echo "Finished calculating $South2"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony2 -n 2 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony2 -n 2 -p 30
     echo "Finished calculating $Colony2"
 done
 
@@ -49,25 +49,25 @@ for file in /data/Tbulleri/ustacks/ustacksM2m*
     South3=$file/cstacks_n3/Southern
     Colony3=$file/cstacks_n3/Colonies
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North1 -n 1 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North1 -n 1 -p 30
     echo "Finished calculating $North1"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South1 -n 1 -p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South1 -n 1 -p 30
     echo "Finished calculating $South1"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony1 -n 1 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony1 -n 1 -p 30
     echo "Finished calculating $Colony1"
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North2 -n 2 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North2 -n 2 -p 30
     echo "Finished calculating $North2"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South2 -n 2-p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South2 -n 2-p 30
     echo "Finished calculating $South2"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony2 -n 2 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony2 -n 2 -p 30
     echo "Finished calculating $Colony2"
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North3 -n 3 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North3 -n 3 -p 30
     echo "Finished calculating $North3"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South3 -n 3-p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South3 -n 3-p 30
     echo "Finished calculating $South3"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony3 -n 3 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony3 -n 3 -p 30
     echo "Finished calculating $Colony3"
 done
 
@@ -89,25 +89,25 @@ for file in /data/Tbulleri/ustacks/ustacksM3m*
     South3=$file/cstacks_n4/Southern
     Colony3=$file/cstacks_n4/Colonies
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North1 -n 2 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North1 -n 2 -p 30
     echo "Finished calculating $North1"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South1 -n 2 -p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South1 -n 2 -p 30
     echo "Finished calculating $South1"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony1 -n 2 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony1 -n 2 -p 30
     echo "Finished calculating $Colony1"
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North2 -n 3 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North2 -n 3 -p 30
     echo "Finished calculating $North2"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South2 -n 3 -p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South2 -n 3 -p 30
     echo "Finished calculating $South2"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony2 -n 3 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony2 -n 3 -p 30
     echo "Finished calculating $Colony2"
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North3 -n 4 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North3 -n 4 -p 30
     echo "Finished calculating $North3"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South3 -n 4-p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South3 -n 4-p 30
     echo "Finished calculating $South3"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony3 -n 4 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony3 -n 4 -p 30
     echo "Finished calculating $Colony3"
 done
 
@@ -129,25 +129,25 @@ for file in /data/Tbulleri/ustacks/ustacksM4m*
     South3=$file/cstacks_n5/Southern
     Colony3=$file/cstacks_n5/Colonies
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North1 -n 3 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North1 -n 3 -p 30
     echo "Finished calculating $North1"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South1 -n 3 -p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South1 -n 3 -p 30
     echo "Finished calculating $South1"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony1 -n 3 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony1 -n 3 -p 30
     echo "Finished calculating $Colony1"
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North2 -n 4 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North2 -n 4 -p 30
     echo "Finished calculating $North2"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South2 -n 4-p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South2 -n 4-p 30
     echo "Finished calculating $South2"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony2 -n 4 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony2 -n 4 -p 30
     echo "Finished calculating $Colony2"
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North3 -n 5 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North3 -n 5 -p 30
     echo "Finished calculating $North3"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South3 -n 5-p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South3 -n 5-p 30
     echo "Finished calculating $South3"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony3 -n 5 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony3 -n 5 -p 30
     echo "Finished calculating $Colony3"
 done
 
@@ -169,25 +169,25 @@ for file in /data/Tbulleri/ustacks_test/ustacksM5m*
     South3=$file/cstacks_n6/Southern
     Colony3=$file/cstacks_n6/Colonies
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North1 -n 4 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North1 -n 4 -p 30
     echo "Finished calculating $North1"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South1 -n 4 -p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South1 -n 4 -p 30
     echo "Finished calculating $South1"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony1 -n 4 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony1 -n 4 -p 30
     echo "Finished calculating $Colony1"
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North2 -n 5 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North2 -n 5 -p 30
     echo "Finished calculating $North2"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South2 -n 5-p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South2 -n 5-p 30
     echo "Finished calculating $South2"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony2 -n 5 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony2 -n 5 -p 30
     echo "Finished calculating $Colony2"
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North3 -n 6 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North3 -n 6 -p 30
     echo "Finished calculating $North3"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South3 -n 6-p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South3 -n 6-p 30
     echo "Finished calculating $South3"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony3 -n 6 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony3 -n 6 -p 30
     echo "Finished calculating $Colony3"
 done
 
@@ -209,25 +209,25 @@ for file in /data/Tbulleri/ustacks_test/ustacksM6m*
     South3=$file/cstacks_n7/Southern
     Colony3=$file/cstacks_n7/Colonies
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North1 -n 5 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North1 -n 5 -p 30
     echo "Finished calculating $North1"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South1 -n 5 -p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South1 -n 5 -p 30
     echo "Finished calculating $South1"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony1 -n 5 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony1 -n 5 -p 30
     echo "Finished calculating $Colony1"
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North2 -n 6 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North2 -n 6 -p 30
     echo "Finished calculating $North2"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South2 -n 6-p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South2 -n 6-p 30
     echo "Finished calculating $South2"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony2 -n 6 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony2 -n 6 -p 30
     echo "Finished calculating $Colony2"
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North3 -n 7 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North3 -n 7 -p 30
     echo "Finished calculating $North3"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South3 -n 7-p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South3 -n 7-p 30
     echo "Finished calculating $South3"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony3 -n 7 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony3 -n 7 -p 30
     echo "Finished calculating $Colony3"
 done
 
@@ -249,25 +249,25 @@ for file in /data/Tbulleri/ustacks_test/ustacksM7m*
     South3=$file/cstacks_n8/Southern
     Colony3=$file/cstacks_n8/Colonies
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North1 -n 6 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North1 -n 6 -p 30
     echo "Finished calculating $North1"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South1 -n 6 -p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South1 -n 6 -p 30
     echo "Finished calculating $South1"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony1 -n 6 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony1 -n 6 -p 30
     echo "Finished calculating $Colony1"
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North2 -n 7 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North2 -n 7 -p 30
     echo "Finished calculating $North2"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South2 -n 7-p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South2 -n 7-p 30
     echo "Finished calculating $South2"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony2 -n 7 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony2 -n 7 -p 30
     echo "Finished calculating $Colony2"
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North3 -n 8 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North3 -n 8 -p 30
     echo "Finished calculating $North3"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South3 -n 8 -p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South3 -n 8 -p 30
     echo "Finished calculating $South3"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony3 -n 8 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony3 -n 8 -p 30
     echo "Finished calculating $Colony3"
 done
 
@@ -289,24 +289,24 @@ for file in /data/Tbulleri/ustacks_test/ustacksM8m*
     South3=$file/cstacks_n9/Southern
     Colony3=$file/cstacks_n9/Colonies
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North1 -n 7 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North1 -n 7 -p 30
     echo "Finished calculating $North1"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South1 -n 7 -p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South1 -n 7 -p 30
     echo "Finished calculating $South1"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony1 -n 7 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony1 -n 7 -p 30
     echo "Finished calculating $Colony1"
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North2 -n 8 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North2 -n 8 -p 30
     echo "Finished calculating $North2"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South2 -n 8-p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South2 -n 8-p 30
     echo "Finished calculating $South2"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony2 -n 8 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony2 -n 8 -p 30
     echo "Finished calculating $Colony2"
     
-    echo cstacks -P $file -M $pop/Northern_popmap -o $North3 -n 9 -p 30
+    cstacks -P $file -M $pop/Northern_popmap -o $North3 -n 9 -p 30
     echo "Finished calculating $North3"
-    echo cstacks -P $file -M $pop/Southern_popmap -o $South3 -n 9-p 30
+    cstacks -P $file -M $pop/Southern_popmap -o $South3 -n 9-p 30
     echo "Finished calculating $South3"
-    echo cstacks -P $file -M $pop/Colonies_popmap -o $Colony3 -n 9 -p 30
+    cstacks -P $file -M $pop/Colonies_popmap -o $Colony3 -n 9 -p 30
     echo "Finished calculating $Colony3"
 done
