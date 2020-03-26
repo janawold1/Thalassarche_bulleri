@@ -1,0 +1,5 @@
+bash /data/Tbulleri/scripts/ustacks_scripts/ustacksM6m3.sh &&
+bash /data/Tbulleri/scripts/ustacks_scripts/ustacksM6m4.sh &&
+bash /data/Tbulleri/scripts/ustacks_scripts/ustacksM6m5.sh &&
+bash /data/Tbulleri/scripts/ustacks_scripts/ustacksM6m6.sh &&
+bash /data/Tbulleri/scripts/ustacks_scripts/ustacksM6m7.sh
