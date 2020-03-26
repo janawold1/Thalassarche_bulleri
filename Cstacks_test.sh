@@ -1,5 +1,4 @@
 #!/bin/bash
-cd /data/Tbulleri
 
 for file in /data/Tbulleri/ustacks/ustacksM1m*
     do
