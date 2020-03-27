@@ -1,5 +1,9 @@
 #!/bin/bash
 
+Npop=/data/Tbulleri/popmaps/Northern_popmap
+Spop=/data/Tbulleri/popmaps/Southern_popmap
+Cpop=/data/Tbulleri/popmaps/Colonies_popmap
+
 for file in /data/Tbulleri/ustacks/ustacksM1m*
     do
     cd $file
@@ -7,9 +11,6 @@ for file in /data/Tbulleri/ustacks/ustacksM1m*
     mkdir -p /data/Tbulleri/cstacks/$base/cstacks_n{1..2}/{Northern,Southern,Colonies}
     echo "Working on $base"
 
-    Npop=/data/Tbulleri/popmaps/Northern_popmap
-    Spop=/data/Tbulleri/popmaps/Southern_popmap
-    Cpop=/data/Tbulleri/popmaps/Colonies_popmap
     North1=/data/Tbulleri/cstacks/$base/cstacks_n1/Northern
     South1=/data/Tbulleri/cstacks/$base/cstacks_n1/Southern
     Colony1=/data/Tbulleri/cstacks/$base/cstacks_n1/Colonies
@@ -44,10 +45,7 @@ for file in /data/Tbulleri/ustacks/ustacksM2m*
     base=$(basename $file)
     mkdir -p /data/Tbulleri/cstacks/$base/cstacks_n{1..3}/{Northern,Southern,Colonies}
     echo "Working on $base"
-    
-    Npop=/data/Tbulleri/popmaps/Northern_popmap
-    Spop=/data/Tbulleri/popmaps/Southern_popmap
-    Cpop=/data/Tbulleri/popmaps/Colonies_popmap
+
     North1=/data/Tbulleri/cstacks/$base/cstacks_n1/Northern
     South1=/data/Tbulleri/cstacks/$base/cstacks_n1/Southern
     Colony1=/data/Tbulleri/cstacks/$base/cstacks_n1/Colonies
@@ -95,10 +93,7 @@ for file in /data/Tbulleri/ustacks/ustacksM3m*
     base=$(basename $file)
     mkdir -p /data/Tbulleri/cstacks/$base/cstacks_n{2..4}/{Northern,Southern,Colonies}
     echo "Working on $base"
-    
-    Npop=/data/Tbulleri/popmaps/Northern_popmap
-    Spop=/data/Tbulleri/popmaps/Southern_popmap
-    Cpop=/data/Tbulleri/popmaps/Colonies_popmap
+
     North1=/data/Tbulleri/cstacks/$base/cstacks_n2/Northern
     South1=/data/Tbulleri/cstacks/$base/cstacks_n2/Southern
     Colony1=/data/Tbulleri/cstacks/$base/cstacks_n2/Colonies
@@ -147,9 +142,6 @@ for file in /data/Tbulleri/ustacks/ustacksM4m*
     mkdir -p /data/Tbulleri/cstacks/$base/cstacks_n{3..5}/{Northern,Southern,Colonies}
     echo "Working on $base"
 
-    Npop=/data/Tbulleri/popmaps/Northern_popmap
-    Spop=/data/Tbulleri/popmaps/Southern_popmap
-    Cpop=/data/Tbulleri/popmaps/Colonies_popmap
     North1=/data/Tbulleri/cstacks/$base/cstacks_n3/Northern
     South1=/data/Tbulleri/cstacks/$base/cstacks_n3/Southern
     Colony1=/data/Tbulleri/cstacks/$base/cstacks_n3/Colonies
@@ -193,14 +185,11 @@ done
 
 for file in /data/Tbulleri/ustacks_test/ustacksM5m*
     do
+    cd $file
     base=$(basename $file)
+    mkdir -p /data/Tbulleri/cstacks/$base/cstacks_n{4..6}/{Northern,Southern,Colonies}
     echo "Working on $base"
-    
-    echo mkdir -p /data/Tbulleri/cstacks/$base/cstacks_n{4..6}/{Northern,Southern,Colonies}
-    
-    Npop=/data/Tbulleri/popmaps/Northern_popmap
-    Spop=/data/Tbulleri/popmaps/Southern_popmap
-    Cpop=/data/Tbulleri/popmaps/Colonies_popmap
+
     North1=/data/Tbulleri/cstacks/$base/cstacks_n4/Northern
     South1=/data/Tbulleri/cstacks/$base/cstacks_n4/Southern
     Colony1=/data/Tbulleri/cstacks/$base/cstacks_n4/Colonies
@@ -244,14 +233,11 @@ done
 
 for file in /data/Tbulleri/ustacks_test/ustacksM6m*
     do
+    cd $file
     base=$(basename $file)
+    mkdir -p /data/Tbulleri/cstacks/$base/cstacks_n{5..7}/{Northern,Southern,Colonies}
     echo "Working on $base"
-    
-    echo mkdir -p /data/Tbulleri/cstacks/$base/cstacks_n{5..7}/{Northern,Southern,Colonies}
-    
-    Npop=/data/Tbulleri/popmaps/Northern_popmap
-    Spop=/data/Tbulleri/popmaps/Southern_popmap
-    Cpop=/data/Tbulleri/popmaps/Colonies_popmap
+
     North1=/data/Tbulleri/cstacks/$base/cstacks_n5/Northern
     South1=/data/Tbulleri/cstacks/$base/cstacks_n5/Southern
     Colony1=/data/Tbulleri/cstacks/$base/cstacks_n5/Colonies
@@ -295,14 +281,11 @@ done
 
 for file in /data/Tbulleri/ustacks_test/ustacksM7m*
     do
+    cd $file
     base=$(basename $file)
+    mkdir -p /data/Tbulleri/cstacks/$base/cstacks_n{6..8}/{Northern,Southern,Colonies}
     echo "Working on $base"
-    
-    echo mkdir -p /data/Tbulleri/cstacks/$base/cstacks_n{6..8}/{Northern,Southern,Colonies}
-    
-    Npop=/data/Tbulleri/popmaps/Northern_popmap
-    Spop=/data/Tbulleri/popmaps/Southern_popmap
-    Cpop=/data/Tbulleri/popmaps/Colonies_popmap
+
     North1=/data/Tbulleri/cstacks/$base/cstacks_n6/Northern
     South1=/data/Tbulleri/cstacks/$base/cstacks_n6/Southern
     Colony1=/data/Tbulleri/cstacks/$base/cstacks_n6/Colonies
@@ -346,14 +329,11 @@ done
 
 for file in /data/Tbulleri/ustacks_test/ustacksM8m*
     do
+    cd $file
     base=$(basename $file)
+    mkdir -p /data/Tbulleri/cstacks/$base/cstacks_n{7..9}/{Northern,Southern,Colonies}
     echo "Working on $base"
-    
-    echo mkdir -p /data/Tbulleri/cstacks/$base/cstacks_n{7..9}/{Northern,Southern,Colonies}
-    
-    Npop=/data/Tbulleri/popmaps/Northern_popmap
-    Spop=/data/Tbulleri/popmaps/Southern_popmap
-    Cpop=/data/Tbulleri/popmaps/Colonies_popmap
+
     North1=/data/Tbulleri/cstacks/$base/cstacks_n7/Northern
     South1=/data/Tbulleri/cstacks/$base/cstacks_n7/Southern
     Colony1=/data/Tbulleri/cstacks/$base/cstacks_n7/Colonies
