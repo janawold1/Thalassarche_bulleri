@@ -1,4 +1,4 @@
-# Thalassarche_bulleri
+# *Thalassarche bulleri*
 Scripts associated with Wold (2017) Master's thesis, 'Phylogenetic relationships, population connectivity, and the development of genetic assignment testing in Buller's Albatross (*Thalassarche bulleri*)'. Thesis permanent link: http://hdl.handle.net/10063/6442
 
 Associated peer-reviewed publications:
