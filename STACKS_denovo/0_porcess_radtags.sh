@@ -18,5 +18,5 @@ for file in $f{out}/*.fq.gz
     do
     base=$(basename $file .fq.gz)
     echo "Working on file $base"
-    fastqc $file
+	fastqc -o ${trim} ${file}
 done
