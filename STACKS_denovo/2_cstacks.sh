@@ -1,6 +1,7 @@
 #!/bin/bash
 ##########################################################################################################
-# 
+# Running the cstacks module for STACKS. The if elif loop ensures all appropriate values of C are tested 
+# for each value of M.
 ##########################################################################################################
 N_pop=/data/Tbulleri/popmaps/Northern_popmap
 S_pop=/data/Tbulleri/popmaps/Southern_popmap
