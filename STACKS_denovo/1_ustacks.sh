@@ -16,7 +16,7 @@ do
             base=$(basename ${fq} .fq.gz)
             printf "\nRunning Ustacks for ${base}...\n"
             ustacks -f ${fq} -i ${count} -o ${out}ustacksM${M}m${j}/ -M ${M} -m $j -p 30 -d
-            interval=$((count + 1))
+            count=$((count + 1))
         done &
         count=1
     done
